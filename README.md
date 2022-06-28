@@ -25,3 +25,20 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+```bash
+npm i -g @angular/cli
+npm i -g @angular/pwa
+ng add @angular/pwa
+ng version
+ng new deployment-front
+cd deployment-front
+ng serve 
+git branch gh-pages
+git checkout -b gh-pages
+npm install -g angular-cli-ghpages
+ng build --base-href https://uracilo.github.io/deployment-front/
+ngh --dir=dist/deployment-front
+```
+
