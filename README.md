@@ -30,9 +30,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ```bash
 npm i -g @angular/cli
 npm i -g @angular/pwa
-ng add @angular/pwa
 ng version
 ng new deployment-front
+ng add @angular/pwa
 cd deployment-front
 ng serve 
 git branch gh-pages
