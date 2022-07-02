@@ -10,10 +10,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
@@ -38,7 +34,7 @@ ng serve
 git branch gh-pages
 git checkout -b gh-pages
 npm install -g angular-cli-ghpages
-ng build --base-href https://uracilo.github.io/deployment-front/
+ng build --configuration=production  --base-href https://uracilo.github.io/deployment-front/
 ngh --dir=dist/deployment-front
 ```
 
