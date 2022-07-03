@@ -27,6 +27,36 @@
     </div>
 </nav>
 
+<div class="container">
+    <form #issuesForm='ngForm' (ngSubmit)='onIssueCreate(issuesForm.value)'>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input ngModel name="inputemail"  type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input ngModel name="inputtitle"  type="title" class="form-control" id="inputTitle" placeholder="title">
+    </div>
+  </div>
+  <div class="form-group col-md-4">
+    <label for="inputBody">Address</label>
+    <input  ngModel name="inputBody" type="body" class="form-control" id="inputBody" placeholder="1234 Main St">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputState">label</label>
+      <select ngModel name="inputLabel" id="inputLabel" class="form-control">
+        <option  selected >Default</option>
+        <option  >...</option>
+      </select>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Sign in</button>
+</form>
+
+</div>
+
 
 <div class="container">
   <div class="vertical-center">
