@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1656397594218,
+  "timestamp": 1656853851516,
   "index": "https://uracilo.github.io/deployment-front/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://uracilo.github.io/deployment-front/favicon.ico",
         "https://uracilo.github.io/deployment-front/index.html",
-        "https://uracilo.github.io/deployment-front/main.83c2410cd36435c2.js",
+        "https://uracilo.github.io/deployment-front/main.27402ac519dd9225.js",
         "https://uracilo.github.io/deployment-front/manifest.webmanifest",
         "https://uracilo.github.io/deployment-front/polyfills.4faf67ed7c8d88b1.js",
         "https://uracilo.github.io/deployment-front/runtime.8402c988684aad52.js",
@@ -52,8 +52,8 @@
     "https://uracilo.github.io/deployment-front/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://uracilo.github.io/deployment-front/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://uracilo.github.io/deployment-front/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://uracilo.github.io/deployment-front/index.html": "f10ee51178ad3f72aa04dcca570d8bbb50bccbc0",
-    "https://uracilo.github.io/deployment-front/main.83c2410cd36435c2.js": "b812874ff93aad12166629d5c6ee5e4714aebf8c",
+    "https://uracilo.github.io/deployment-front/index.html": "4044d7a2ddbf5df1b350d491df06e0a24ec97869",
+    "https://uracilo.github.io/deployment-front/main.27402ac519dd9225.js": "738c59d9d0ad8b4b1c20760da07508699a706d6e",
     "https://uracilo.github.io/deployment-front/manifest.webmanifest": "e4d41af86259db0fd6d31124bbd5b1c0d9236abb",
     "https://uracilo.github.io/deployment-front/polyfills.4faf67ed7c8d88b1.js": "505b556a90301a4c6a1ad908a92d972d261cf7fb",
     "https://uracilo.github.io/deployment-front/runtime.8402c988684aad52.js": "a6a24956b3fab47f8deb84fc567c902259100239",
