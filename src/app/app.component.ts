@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+
+import { Component, OnInit  } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 import { HttpHeaders } from '@angular/common/http';
@@ -10,10 +11,14 @@ import { environment } from './../environments/environment';
   styleUrls: ['./app.component.css']
 })
 
-export class AppComponent {
+export class AppComponent implements OnInit{
   title = 'deployment-front';
   
   url_API = 'https://api.github.com/repos/CoverMyMeds-Pharmacy/ContinuousDeliveryAPI/issues?state=all';
+
+  url_API_get = 'https://rickandmortyapi.com/api/character';
+
+
   headers = new HttpHeaders()
     .set('content-type', 'application/json')
     .set('Authorization', 'token '+ environment.GITHUBTOKEN);
@@ -22,6 +27,16 @@ export class AppComponent {
   constructor(private http: HttpClient){
 
   }
+
+  ngOnInit(){
+    this.fetchIssues();
+
+  }
+
+  onIssuesFetch(){
+    this.fetchIssues();
+  }
+
 
   onIssueCreate(issues: {inputemail:string, inputtitle: string, inputBody: string, inputLabel: string}){
     console.log(issues);
@@ -36,5 +51,18 @@ export class AppComponent {
       console.log(res);
     });
   }
-  
+
+private fetchIssues(){
+    this.http.get(this.url_API_get ).subscribe((res) => {
+      console.log(res);
+      console.log(Object.keys(res));
+
+    });
+
 }
+
+
+
+}
+
+
